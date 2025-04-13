@@ -1,19 +1,25 @@
 @font-face {
-	font-family: 'FontBolt';
-	src: url('./fonts/OnePieceFont.ttf') format('truetype'),
-		url('./fonts/SayyedaFont.ttf') format('truetype');
+	font-family: 'FontBolt1';
+	src: url('./fonts/OnePieceFont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FontBolt2';
+	src: url('./fonts/SayyedaFont.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 .site-title {
 	font-size: 50px;
-	font-family: 'FontBolt', sans-serif;
+	font-family: 'FontBolt1', sans-serif;
 }
 
 body {
 	background: #eda015;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'FontBolt2', sans-serif;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -32,7 +38,7 @@ body {
 	text-align: center;
 }
 
-h1,
+h2,
 label,
 p {
 	color: #fff;
@@ -66,7 +72,7 @@ button:hover {
 
 #temp-div p {
 	font-size: 60px;
-	margin-top: -30px;
+	margin-top: -20px;
 }
 
 #weather-info {
@@ -74,15 +80,16 @@ button:hover {
 }
 
 #weather-icon {
-	width: 200px;
-	height: 200px;
-	margin: 0 auto 10px;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto 5px;
 	margin-bottom: 0;
 	display: none;
 }
 
 #hourly-forecast {
 	margin-top: 50px;
+	margin-bottom: 10px;
 	overflow-x: auto;
 	white-space: nowrap;
 	display: flex;
