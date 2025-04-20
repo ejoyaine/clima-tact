@@ -1,10 +1,6 @@
 # Clima-Tact
 
-**Clima-Tact** is a simple and responsive weather application built using **HTML**, **CSS**, and **JavaScript**, powered by the **OpenWeather API**. It allows users to search for a city and instantly view real-time weather data.
-
----
-
-## Why "Clima-Tact"?
+**Clima-Tact** is a simple and responsive weather application built using **HTML**, **CSS**, and **JavaScript**, powered by the **OpenWeatherMap API**. It allows users to search for a city and instantly view real-time weather data.
 
 > _“The Clima-Tact is a weapon from the manga series **One Piece**. It is used by the most skilled of Navigators, **Nami**, to reverse-engineer weather effects for combative purposes.”_
 
@@ -43,4 +39,4 @@ Downloaded from: [FontBolt - One Piece Font](https://www.fontbolt.com/font/one-p
 - **HTML5** — Structure
 - **CSS3** — Styling and layout
 - **JavaScript (Vanilla)** — Dynamic behavior and API integration
-- **OpenWeather API** — For fetching real-time weather data
+- **OpenWeatherMap API** — For fetching real-time weather data
